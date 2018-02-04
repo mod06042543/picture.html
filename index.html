@@ -6,19 +6,19 @@
 	</head>
 	<body style="margin: 0; overflow: hidden;">
 	  <a-scene embedded 
-            arjs="detectionmode:mono_and_matrixmatrix;
-			      Codetype:3x3"
-			 vr-mode-vi="enabled: false">
+            arjs="detectionmode: mono_and_matrixmatrix;
+			 matrixCodeType: 3x3;"
+	        vr-mode-ui="enabled: false">
 		  <a-marker type="barcode" value="3">
-		    <a-image src="family.jpg"></a-image>
+		     <a-image src="family.jpg"></a-image>
 		  </a-marker>
 		  <a-marker type="barcode" value="5">
 		     <a-box position="0 0.5 0"
 		            material="color: blue;">
 		     </a-box>
 		  </a-marker>
-	      <a-camera>
-	      </a-camera>
+	          <a-camera>
+	          </a-camera>
 	  <a-scene>
 	</body>
 </html>
